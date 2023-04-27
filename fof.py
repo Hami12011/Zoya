@@ -110,7 +110,7 @@ def uaku():
         
        
 
-  os.system(f" clear")                          
+                   
   print(f"""\x1b[1;97m
           ███████  ██████  ███████
           ██      ██    ██ ██
