@@ -585,7 +585,7 @@ def freeq(uid,pwx,tl):
             'sec-fetch-user': '?1',
             'referer':'https://www.facebook.com/',
             'upgrade-insecure-requests': '1',
-            'user-agent': "Davik/2.1.0 (Linux; U; Android 9.1.2.0.0; SM-232 Build/8BFOHT) [FBAN/FB4A;FBAV/92.866.944.616;FBPN/com.facebook.katana;FBLC/en_US;FBBV/322216925;FBCR/null;FBMF/iphone;FBBD/iphone;FBDV/iphone;FBSV/iphone.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.25,width=459,height=1075"}
+            'user-agent': "aqib_ua"}
             lo = session.post('https://www.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
